@@ -11,13 +11,13 @@
 
 Apply Word2Vec and Transformer network to generating candidate active address sets.
 
-![IPv62vec](images/IPv62vec.pdf)
+![IPv62vec](images/IPv62vec.png)
 
-![Transformer-IPv6](images/Transformer-IPv6.pdf)
+![Transformer-IPv6](images/Transformer-IPv6.png)
 
 The illustration of 6VecLM. 6VecLM contains two components IPv62Vec and Transformer-IPv6. IPv62Vec maps the entire active ad- dress space to a semantic vector space, where addresses with similar sequences will be classified into the same cluster. Semantic address vectors will be learned by Transformer-IPv6 to implement IPv6 language modeling.
 
-The research paper [6VecLM: Language Modeling in Vector Space for IPv6 Target Generation]() has been accepted at the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECMLPKDD 2020).
+The research paper [6VecLM: Language Modeling in Vector Space for IPv6 Target Generation](https://ecmlpkdd2020.net/programme/accepted/#ADSTab) has been accepted at the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECMLPKDD 2020).
 
 Note: this code is based on [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html). Many thanks to the author.
 
